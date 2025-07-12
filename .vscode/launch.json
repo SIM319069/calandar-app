@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Backend",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/dist/server.js",
+      "outFiles": ["${workspaceFolder}/backend/dist/**/*.js"],
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
